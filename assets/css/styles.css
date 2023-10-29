@@ -17,13 +17,13 @@ section {
 }
 
 .dark-section {
-    color: white;
-    background-color: black;
+    color: #FA3C69;
+    background-color: #C59DFA;
 }
 
 .white-section {
-    color: black;
-    background-color: pink;
+    color: #FA3C69;
+    background-color: white;
 }
 
 .title-section {
@@ -33,7 +33,7 @@ section {
 
 .description-section {
     font-size: 1.2rem;
-    color: gray;   
+    color: #EFCAFA;   
 }
 
 .text-section {
@@ -55,13 +55,13 @@ section {
 }
 
 span {
-    color: #e67588;
+    color: #FA3C69;
 }
 
 /*NAVBAR*/
 .navbar {
     padding: 0.5rem;
-    background-color: #7fbbf3;
+    background-color: #EFCAFA;
 }
 
 .navbar-collapse {
@@ -72,6 +72,10 @@ span {
 .navbar a {
     padding: 0.5rem;
     color: #e67588;
+}
+
+.logo-page {
+    size: 40px;
 }
 
 /*Hero Section*/
@@ -101,7 +105,7 @@ span {
 
 .hero-principal h2 {
     font-size: 1.5rem;
-    color: gray;
+    color: #EFCAFA;
 }
 
 /*About me*/
@@ -184,9 +188,11 @@ span {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    color: #EFCAFA;
 }
 
 .overlay p {
+   color: #FA3C69;
    font-size: 25px;
    font-weight: bold;
    margin-bottom: 0; 
@@ -209,7 +215,7 @@ span {
 }
 
 .overlay i {
-    color: black;
+    color: #FA3C69;
     font-size: 60px;
     margin: 10px;
 }
@@ -224,9 +230,9 @@ span {
 
 .contact .rectangle {
     margin-top: -5rem;
-    background-color: blue;
+    background-color: #FA3C69;
     border-radius: 10px;
-    box-shadow: 0px 1px 4px 1px white; 
+    box-shadow: 0px 1px 4px 1px #FACDC8; 
 }
 
 .contact .row {
@@ -236,7 +242,7 @@ span {
 }
 
 .contact .description {
-    color: white;
+    color: #FACDC8;
     font-size: 1.2rem;
 }
 
@@ -270,9 +276,8 @@ footer {
 }
 
 .logo-footer {
-    height: 80px;
-    width: 80px;
     margin: 10px;
+    font-size: 50px;
 }
 
 .text-footer {
@@ -302,13 +307,12 @@ footer {
 
 .social-media-icons a:hover {
     background-color: white;
-    border: 2px solid blue;
+    border: 2px solid #FA3C69;
 }
 
 .social-media-icons a:hover i {
     color: black;
 }
-
 
 /*Responsive content*/
 @media screen and (max-width: 767px) {
